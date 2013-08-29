@@ -343,7 +343,7 @@ if ( typeof Object.create !== 'function' ) {
 		getEvent : function(){
 			var base = this;
 			if (base.isTouch === true){
-				return "touchstart.owlControlls"
+				return "touchend.owlControlls"
 			} else {
 				return "click.owlControlls"
 			}
